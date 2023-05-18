@@ -9,7 +9,7 @@ export function ItemCard({ item, image }) {
             <div className="card-body">
                 <h2 className="h4 card-title">{item.itemData.name}</h2>
                 <p className="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card&rsquo;s content.
                 </p>
                 <div className="d-flex align-items-center justify-content-between">
                     {item.itemData.variations.map((variation) => (
